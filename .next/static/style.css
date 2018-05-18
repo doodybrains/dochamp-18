@@ -1,0 +1,100 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none; }
+
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+*,
+*:before,
+*:after {
+  box-sizing: inherit; }
+
+html,
+body {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased; }
+
+body {
+  background: white;
+  color: #FFDC00;
+  font-family: 'Infini', sans-serif;
+  font-size: 16px; }
+
+.annoying {
+  background: url("http://marceldochamp.net/static/media/4.a2094653.gif");
+  background-size: cover;
+  height: 100vh;
+  overflow: scroll; }
+  .annoying .gif {
+    position: fixed;
+    top: -55px;
+    left: -10px;
+    transform: rotate(-180deg); }
+
+.boring .gif {
+  position: fixed;
+  bottom: -55px;
+  right: -10px; }
+
+.annoying,
+.boring {
+  padding-bottom: 100px; }
+
+button {
+  position: fixed;
+  top: 80px;
+  right: 80px; }
+
+pre {
+  white-space: pre-wrap; }
+
+.that-part {
+  margin-bottom: 20px; }
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 10px; }
+
+p {
+  font-size: 2em;
+  margin-bottom: 10px; }
+
+a {
+  display: block;
+  color: #FFDC00;
+  text-decoration: none;
+  margin-bottom: 10px;
+  font-size: 1.25em; }
+
+/*# sourceMappingURL=style.css.map*/

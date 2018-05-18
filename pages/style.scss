@@ -1,0 +1,75 @@
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background: white;
+  color: #FFDC00;
+  font-family: 'Infini', sans-serif;
+  font-size: 16px;
+}
+
+.annoying {
+  background: url('http://marceldochamp.net/static/media/4.a2094653.gif');
+  background-size: cover;
+  height: 100vh;
+  overflow: scroll;
+  .gif {
+    position: fixed;
+    top: -55px;
+    left: -10px;
+    transform: rotate(-180deg);
+  }
+}
+.boring {
+  .gif {
+    position: fixed;
+    bottom: -55px;
+    right: -10px;
+  }
+}
+.annoying,
+.boring {
+  padding-bottom: 100px;
+}
+
+button {
+  position: fixed;
+  top: 80px;
+  right: 80px;
+}
+
+pre {
+  white-space: pre-wrap;
+}
+
+.that-part {
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+a {
+  display: block;
+  color: #FFDC00;
+  text-decoration: none;
+  margin-bottom: 10px;
+  font-size: 1.25em;
+}
