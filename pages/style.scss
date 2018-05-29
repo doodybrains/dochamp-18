@@ -17,13 +17,16 @@ body {
   overflow: hidden;
   font-family: 'Infini', sans-serif;
   font-size: 16px;
+  width: 100%;
 }
 
 .annoying {
   background: url('http://marceldochamp.net/static/media/4.a2094653.gif');
   background-size: cover;
   height: 100vh;
-  overflow: scroll;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  width: 100%;
   .gif {
     display: none;
     position: fixed;
@@ -36,6 +39,7 @@ body {
 .boring {
   height: 100vh;
   overflow: scroll;
+  padding: 3rem;
   .gif {
     display: none;
     position: fixed;
@@ -55,8 +59,8 @@ body {
 
 button {
   position: fixed;
-  top: 80px;
-  right: 80px;
+  top: 10px;
+  right: 10px;
 }
 
 pre {
@@ -156,10 +160,11 @@ pre {
 h1 {
   font-size: 1.25em;
   margin-bottom: 10px;
-  color: #000;
+  color: #39ff14;
   position: fixed;
   left: 10px;
   top: 10px;
+  padding: 3rem;
 }
 
 p {
@@ -184,21 +189,24 @@ a {
 
   span {
     display: block;
-    transition: transform 3s;
+    transition: transform 8s;
   }
 
   &:hover {
     color: #FFDC00;
 
     span {
-      transform: rotate(20deg);
+      transform: rotate(40deg);
       background: white;
-      padding: 30px;
-      transition: transform .325s;
+
+      transition: transform 1s;
     }
   }
 
   &:nth-child(odd) {
+    span {
+      transform: rotate(20deg);
+    }
     &:hover {
       span {
         transform: rotate(-20deg);
