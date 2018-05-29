@@ -25,35 +25,35 @@ class Index extends React.Component {
 
         <div className="that-part thingz-i-made-for-friendz">
           <p>sites-made-recently</p>
-          <a href="#" className="link-three"><span>placeholder</span></a>
-          <a href="#" className="link"><span>erica eso</span></a>
-          <a href="#" className="link-three"><span>woman in the cabinet</span></a>
-          <a href="#" className="link"><span>ariel yelen</span></a>
-          <a href="#" className="link"><span>jack reynolds</span></a>
+          <a href="https://www.placeholder.nyc" target="_blank"className="link-three"><span>placeholder</span></a>
+          <a href="http://www.ericaeso.com" target="_blank"className="link"><span>erica eso</span></a>
+          <a href="http://womaninthecabinet.com" target="_blank"className="link-three"><span>woman in the cabinet</span></a>
+          <a href="https://awesome-rosalind-be4c1e.netlify.com" target="_blank"className="link"><span>ariel yelen</span></a>
+          <a href="https://jackreynolds.persona.co" target="_blank"className="link"><span>jack reynolds</span></a>
         </div>
         <div className="that-part thingz-i-made-at-shift-lab-ny">
           <p>sites-made-at-shift-lab-ny</p>
-          <a href="#" className="link-tow"><span>uprise art</span></a>
-          <a href="#" className="link-tow"><span>aldrich art museum</span></a>
-          <a href="#" className="link-tow"><span>snap on mobile app</span></a>
-          <a href="#" className="link-tow"><span>airlift creative</span></a>
+          <a href="https://www.upriseart.com" target="_blank"className="link-tow"><span>uprise art</span></a>
+          <a href="http://aldrichart.org" target="_blank"className="link-tow"><span>aldrich art museum</span></a>
+          <a href="https://play.google.com/store/apps/details?id=com.snapon.SnapOnMobileCatalog" target="_blank"className="link-tow"><span>snap on mobile app</span></a>
+          <a href="http://www.weareairlift.com/" target="_blank"className="link-tow"><span>airlift</span></a>
         </div>
         <div className="that-part thingz-i-made-for-myself-and-for-you">
           <p>sites-made-for-myself-and-for-you</p>
-          <a href="#" className="link-four"><span>website with the sound of its own making</span></a>
-          <a href="#" className="link-four"><span>javascript scrabble app</span></a>
-          <a href="#" className="link-four"><span>undecided.js</span></a>
-          <a href="#" className="link-four"><span>construction site</span></a>
-          <a href="#" className="link-four"><span>know thyself</span></a>
-          <a href="#" className="link-four"><span>mixtape app</span></a>
-          <a href="#" className="link-four"><span>sol lewitt - wall drawing #959 (4 the browser)</span></a>
+          <a href="http://websitewiththesoundofitsownmaking.net" target="_blank"className="link-four"><span>website with the sound of its own making</span></a>
+          <a href="https://s3-us-west-1.amazonaws.com/marceldochamp.net/sccrraaaabbbble/index.html" target="_blank"className="link-four"><span>javascript scrabble app</span></a>
+          <a href="https://desolate-scrubland-97851.herokuapp.com" target="_blank"className="link-four"><span>undecided.js</span></a>
+          <a href="https://goldsmith-ingrid-64253.netlify.com" target="_blank"className="link-four"><span>construction site</span></a>
+          <a href="https://sleepy-everglades-99417.herokuapp.com" target="_blank"className="link-four"><span>know thyself</span></a>
+          <a href="https://mixxxtape.herokuapp.com/#" target="_blank"className="link-four"><span>mixtape app</span></a>
+          <a href="https://s3-us-west-1.amazonaws.com/marceldochamp.net/sol-lewitt/index.html" target="_blank"className="link-four"><span>sol lewitt - wall drawing #959 (4 the browser)</span></a>
         </div>
         <div className="that-part thingz-to-know">
           <p>more-stuff</p>
-          <a href="#" className="link-five"><span>website with the sound of its own making is for sale at Printed Matter</span></a>
-          <a href="#" className="link-five"><span>i am a masters candidate at NYUs interactive telecommunications program</span></a>
-          <a href="#" className="link-five"><span>brutalist websites featured wwtsoiom</span></a>
-          <a href="#" className="link-five"><span>wwtsoiom is at Internet Yama-Ichi with Rhizome</span></a>
+          <a href="https://www.printedmatter.org" target="_blank"className="link-five"><span>website with the sound of its own making is for sale at Printed Matter</span></a>
+          <a href="https://tisch.nyu.edu/itp/admissions/itp-mps" target="_blank"className="link-five"><span>i am a masters candidate at NYUs interactive telecommunications program</span></a>
+          <a href="http://brutalistwebsites.com" target="_blank"className="link-five"><span>brutalist websites featured wwtsoiom</span></a>
+          <a href="http://rhizome.org/editorial/2018/mar/08/internet-yami-ichi-at-nada-art-fair" target="_blank"className="link-five"><span>wwtsoiom is at Internet Yama-Ichi with Rhizome</span></a>
         </div>
       </div>
     );
