@@ -28,7 +28,7 @@ class Index extends React.Component {
           <a href="https://www.placeholder.nyc" target="_blank"className="link-three"><span>placeholder</span></a>
           <a href="http://www.ericaeso.com" target="_blank"className="link"><span>erica eso</span></a>
           <a href="http://womaninthecabinet.com" target="_blank"className="link-three"><span>woman in the cabinet</span></a>
-          <a href="https://awesome-rosalind-be4c1e.netlify.com" target="_blank"className="link"><span>ariel yelen</span></a>
+          // <a href="https://awesome-rosalind-be4c1e.netlify.com" target="_blank"className="link"><span>ariel yelen</span></a>
           <a href="https://jackreynolds.persona.co" target="_blank"className="link"><span>jack reynolds</span></a>
         </div>
         <div className="that-part thingz-i-made-at-shift-lab-ny">
