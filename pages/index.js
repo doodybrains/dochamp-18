@@ -50,7 +50,7 @@ class Index extends React.Component {
         </div>
         <div className="that-part thingz-to-know">
           <p>more-stuff</p>
-          <a href="https://www.printedmatter.org" target="_blank"className="link-five"><span>website with the sound of its own making is for sale at Printed Matter</span></a>
+          <a href="https://www.printedmatter.org/catalog/artist/32655" target="_blank"className="link-five"><span>website with the sound of its own making is for sale at Printed Matter</span></a>
           <a href="https://tisch.nyu.edu/itp/admissions/itp-mps" target="_blank"className="link-five"><span>i am a masters candidate at NYUs interactive telecommunications program</span></a>
           <a href="http://brutalistwebsites.com" target="_blank"className="link-five"><span>brutalist websites featured wwtsoiom</span></a>
           <a href="http://rhizome.org/editorial/2018/mar/08/internet-yami-ichi-at-nada-art-fair" target="_blank"className="link-five"><span>wwtsoiom is at Internet Yama-Ichi with Rhizome</span></a>
